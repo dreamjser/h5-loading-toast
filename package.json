@@ -1,0 +1,50 @@
+{
+  "name": "@dreamjser/h5-loading-toast",
+  "version": "1.0.0",
+  "description": "a loading UI lib",
+  "type": "module",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "type.d.ts",
+  "scripts": {
+    "dev": "rollup -c rollup.dev.config.js --watch",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "loading"
+  ],
+  "files": [
+    "es",
+    "lib",
+    "src",
+    "type.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamjser/h5-loading-toast.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.3",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "postcss-url": "^10.1.3",
+    "rollup": "^3.26.3",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-serve": "^2.0.2",
+    "rollup-plugin-typescript2": "^0.35.0"
+  },
+  "browserslist": [
+    ">0.01%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.22.6",
+    "core-js": "^3.31.1"
+  }
+}

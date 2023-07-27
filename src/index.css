@@ -1,0 +1,47 @@
+.dreamjser-loading-wrap{
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+}
+
+.dreamjser-loading-wrap .dreamjser-loading-box{
+  width: 130px;
+  height: 106px;
+  border-radius: 5px;
+  padding-top: 10px;
+  background-color: rgba(0,0,0,.7);
+}
+
+.dreamjser-loading-wrap .dreamjser-loading-icon{
+  width: 60px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(./loading.svg) no-repeat center;
+  background-size: contain;
+  animation: loadingRotate infinite linear .8s;
+}
+
+.dreamjser-loading-wrap .dreamjser-loading-title{
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+@keyframes loadingRotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
