@@ -23,7 +23,7 @@
     "type": "git",
     "url": "git+https://github.com/dreamjser/h5-loading-toast.git"
   },
-  "author": "",
+  "author": "dreamjser@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.3",
