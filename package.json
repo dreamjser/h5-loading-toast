@@ -1,6 +1,6 @@
 {
   "name": "@dreamjser/h5-loading-toast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a loading UI lib",
   "type": "module",
   "main": "lib/index.js",
