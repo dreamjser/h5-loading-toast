@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "a loading UI lib",
   "type": "module",
-  "main": "lib/index.js",
+  "main": "es/index.js",
   "module": "es/index.js",
   "types": "type.d.ts",
   "typings": "type.d.ts",
@@ -16,7 +16,6 @@
   ],
   "files": [
     "es",
-    "lib",
     "src",
     "type.d.ts"
   ],

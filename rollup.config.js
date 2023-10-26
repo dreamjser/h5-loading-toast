@@ -10,11 +10,6 @@ import url from 'postcss-url'
 export default {
   input: 'src/index.ts',
   output: [{
-    name: 'loadingToast',
-    file: 'lib/index.js',
-    format: 'umd',
-
-  }, {
     file: 'es/index.js',
     format: 'es',
   }],
