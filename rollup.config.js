@@ -1,6 +1,5 @@
 
 import resolve from '@rollup/plugin-node-resolve'
-import commonjs from '@rollup/plugin-commonjs'
 import ts from 'rollup-plugin-typescript2'
 import json from '@rollup/plugin-json'
 import postcss from 'rollup-plugin-postcss'
@@ -31,7 +30,6 @@ export default {
       browser: true,
       preferBuiltins: true
     }),
-    commonjs(),
     json()
   ]
 }

@@ -15,9 +15,10 @@
     "strict": true,
     "alwaysStrict": true,
     "moduleResolution": "node",
-    "sourceMap": true,
+    "declaration": true,
+    "declarationDir": "es",
     "typeRoots": ["./node_modules/@types", "./typings"]
   },
   "exclude": ["node_modules"],
-  "include": ["src/*.ts", "example/*.ts", "typings/*.d.ts"],
+  "include": ["src/*.ts", "typings/*.d.ts"],
 }

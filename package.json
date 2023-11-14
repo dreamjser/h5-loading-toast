@@ -5,8 +5,8 @@
   "type": "module",
   "main": "es/index.js",
   "module": "es/index.js",
-  "types": "type.d.ts",
-  "typings": "type.d.ts",
+  "types": "es/index.d.ts",
+  "typings": "es/index.d.ts",
   "scripts": {
     "dev": "rollup -c rollup.dev.config.js --watch",
     "build": "rollup -c"
@@ -36,7 +36,8 @@
     "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-serve": "^2.0.2",
-    "rollup-plugin-typescript2": "^0.35.0"
+    "rollup-plugin-typescript2": "^0.35.0",
+    "typescript": "^5.2.2"
   },
   "browserslist": [
     ">0.01%",
