@@ -15,8 +15,7 @@
     "strict": true,
     "alwaysStrict": true,
     "moduleResolution": "node",
-    "declaration": true,
-    "declarationDir": "es",
+    "noEmit": true,
     "typeRoots": ["./node_modules/@types", "./typings"]
   },
   "exclude": ["node_modules"],

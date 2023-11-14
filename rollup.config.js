@@ -6,6 +6,13 @@ import postcss from 'rollup-plugin-postcss'
 import autoprefixer from 'autoprefixer'
 import url from 'postcss-url'
 
+const override = {
+  compilerOptions: {
+    "declaration": true,
+    "declarationDir": "es",
+    "noEmit": true,
+  }
+}
 export default {
   input: 'src/index.ts',
   output: [{
@@ -23,7 +30,9 @@ export default {
         })
       ]
     }),
-    ts(),
+    ts({
+      tsconfigOverride: override
+    }),
     resolve({
       jsnext: true,
       main: true,
