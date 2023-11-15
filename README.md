@@ -4,21 +4,15 @@
 
 ```
   // npm安装
-  npm i @dreamjser/h5-loading-toast -g
+  npm i @dreamjser/h5-loading-toast
 
-```
-
-
-```
   // yarn安装
-  yarn add @dreamjser/h5-loading-toast -g
+  yarn add @dreamjser/h5-loading-toast
 
-```
-
-```
   // pnpm安装
-  pnpm add @dreamjser/h5-loading-toast -g
+  pnpm add @dreamjser/h5-loading-toast
 ```
+
 
 ## 使用
 
