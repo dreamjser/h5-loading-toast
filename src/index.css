@@ -8,6 +8,7 @@
   z-index: 100;
   align-items: center;
   justify-content: center;
+  z-index: 99999;
 }
 
 .dreamjser-loading-wrap .dreamjser-loading-box{
